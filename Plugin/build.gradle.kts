@@ -124,11 +124,11 @@ dependencies {
     compileOnly("dev.simplix:protocolize-api:2.4.2")
     libby("org.bouncycastle:bcprov-jdk18on:1.81")
     libby("org.apache.commons:commons-email:1.6.0")
-    libby("net.kyori:adventure-text-minimessage:4.24.0")
+    libby("net.kyori:adventure-text-minimessage:4.25.0")
     libby("com.github.kyngs:LegacyMessage:0.2.0")
 
     //Geyser
-    compileOnly("org.geysermc.floodgate:api:2.2.0-SNAPSHOT")
+    compileOnly("org.geysermc.floodgate:api:2.4.0-SNAPSHOT")
     //LuckPerms
     compileOnly("net.luckperms:api:5.5")
 
@@ -137,8 +137,8 @@ dependencies {
     libby("org.bstats:bstats-bukkit:3.1.0")
 
     //Paper
-    compileOnly("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
-    implementation("com.github.retrooper:packetevents-spigot:2.9.3")
+    compileOnly("io.papermc.paper:paper-api:1.21.10-R0.1-SNAPSHOT")
+    implementation("com.github.retrooper:packetevents-spigot:2.10.0")
     compileOnly("org.apache.logging.log4j:log4j-core:2.25.1")
 
     //Libby
