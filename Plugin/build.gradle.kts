@@ -8,6 +8,7 @@ plugins {
     id("xyz.kyngs.libby.plugin").version("1.2.1")
 }
 
+
 tasks.withType<JavaCompile> {
     options.encoding = "UTF-8"
 }
